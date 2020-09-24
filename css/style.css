@@ -4181,6 +4181,34 @@ FOOTER STYLES
   background-color: #f3f3f3;
 }
 
+/* icone whatsapp */
+
+.contato a {
+  /* tamanho da imagem */
+  height: 60px;
+  width: 60px;
+
+  /* imagem replacement */
+  display: block;
+  text-indent: -99999px;
+}
+
+.contato a[href*="whatsapp.com"] {
+  background-image: url(../images/whatsapp.png);
+}
+
+.contato {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+
+.contato {
+  z-index: 2000;
+}
+
+/* fim whatsapp */
+
 /**footer v3**/
 .footer-v3 {
   padding: 40px 0;
